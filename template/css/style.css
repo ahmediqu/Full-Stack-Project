@@ -1,0 +1,158 @@
+/*
+    Author: Iqbal Hossain
+    Email: jniqbal1@gmail.com
+    Mobile: 01964525018
+
+    Sections
+    --------------------
+    01. Header
+    02: Carousel
+    03: Call to the action
+    04: About
+    05: Reservation
+    06: Footer
+
+ */
+/* Basic Css*/
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+.bg-pink {
+    background: pink;
+}
+
+.bg-gray {
+    background-color: #edf1f3;
+}
+
+.text-pink {
+    color: pink;
+}
+
+.text-yellow {
+    color: #fea100;
+}
+
+/* Header */
+.custom-nav {
+    padding: 20px 0px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.custom-label-menu li {
+    padding: 0px 10px;
+}
+
+.text-black {
+    color: #000000;
+}
+
+.cart-icon {
+    position: relative;
+}
+
+.custom-badge {
+    position: absolute;
+    top: 0;
+    padding: 3px 5px;
+}
+
+/* Call to the action */
+.action-icon {
+    font-size: 25px;
+}
+
+.review-icon-action {
+    background: #fea100;
+    color: #000000;
+    padding: 10px 16px;
+    border-radius: 50%;
+}
+
+.review-btn {
+    border: 2px solid #fea100;
+    padding: 11px 2px;
+    border-radius: 50%;
+}
+
+/* Reservation  */
+.custom-input {
+    border: none;
+    border-right: 0px;
+    border-bottom: 1px solid #dddddd;
+    background-color: transparent;
+}
+
+.custom-input-group-text {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: unset;
+    background-color: transparent;
+}
+
+/* Footer */
+.footer-bg {
+    background-color: #373844;
+}
+
+.footer-menu {
+    padding: 0;
+    line-height: 25px;
+}
+
+.footer-menu li a {
+    color: #ffffff;
+}
+
+.app-store img {
+    height: 40px;
+}
+
+.social-icon {
+    padding: 0;
+}
+
+.app-store-parent {
+    background: #52535e;
+    padding: 12px;
+    border-radius: 7px;
+}
+
+.facebook-icon {
+    background-color: #3b5998;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 50%;
+    margin: 0px 15px;
+}
+
+.twitter-icon {
+    background-color: #55acee;
+    color: #fff;
+    padding: 12px 15px;
+    border-radius: 50%;
+    margin: 0px 15px;
+}
+
+.google-plus-icon {
+    background-color: #dd4b39;
+    color: #fff;
+    padding: 12px 13px;
+    border-radius: 50%;
+    margin: 0px 15px;
+}
